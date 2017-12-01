@@ -1,0 +1,34 @@
+﻿<html>
+<head>
+    <link href="Content/site.css" rel="stylesheet" />
+    <link href="Content/toastr.css" rel="stylesheet" />
+
+    <meta charset="utf-8">
+    <title>Signature Pad</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-animate.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <script src="Scripts/angular-cookies.min.js"></script>
+    <script src="Scripts/jquery-3.1.1.js"></script>
+    <script src="App/Model/SignaturePadSettings.js"></script>
+    <script src="Scripts/SignaturePad.js"></script>
+    <script src="Scripts/toastr.js"></script>
+    <script src="App/app.js"></script>
+    <script src="App/services/cryptoService.js"></script>
+    <script src="App/controllers/signatureController.js"></script>
+    <script src="App/controllers/homeController.js"></script>
+    <script src="App/controllers/enrollController.js"></script>
+    <script src="App/controllers/registerController.js"></script>
+    <script src="App/Model/Entry.js"></script>
+    <script src="App/Model/SigToSend.js"></script>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+</head>
+
+<body ng-app="app">
+    <div ng-view></div>
+</body>
+</html>

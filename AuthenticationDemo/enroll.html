@@ -1,0 +1,15 @@
+﻿<div class="col-md-6 col-md-offset-3" ng-controller="EnrollController">
+    <h2>Enroll</h2>
+    <form name="form" ng-submit="enroll()" role="form">
+        <div class="form-group" ng-class="{ 'has-error': form.email.$dirty && form.email.$error.required }">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" class="form-control" ng-model="email" required />        
+        </div>
+        <div class="form-actions">
+            <button type="submit" ng-disabled="form.$invalid || vm.dataLoading" class="btn btn-primary">Start</button>
+        </div>
+    </form>
+    <!--<div class="text-right">
+        <span>During the enrollment process, the first two signatures are the most important.</span>
+    </div>-->
+</div>

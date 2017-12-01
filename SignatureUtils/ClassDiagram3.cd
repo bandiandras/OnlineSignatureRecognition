@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SignatureUtils.Feature_Based.Detector.Detector">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAQAABAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Feature Based\Detector\Detector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SignatureUtils.Feature_Based.Detector.EuclideanDetector">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Feature Based\Detector\EuclideanDetector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SignatureUtils.Feature_Based.Detector.ManhattanDetector">
+    <Position X="3.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Feature Based\Detector\ManhattanDetector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SignatureUtils.Feature_Based.FeatureCalculator">
+    <Position X="3.25" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAgAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Feature Based\FeatureCalculator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SignatureUtils.Feature_Based.FeatureNormalizer">
+    <Position X="0.5" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Feature Based\FeatureNormalizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
